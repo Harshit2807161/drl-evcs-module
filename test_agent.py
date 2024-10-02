@@ -22,6 +22,7 @@ for ep in range(episodes):
             print("When the preference for agent is travel costs: ")
         else:
             print("When the preference for agent is distance costs: ")
+        print(a)
         obs, reward, done, trunc, info = env.step(action)
         
         
