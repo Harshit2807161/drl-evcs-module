@@ -1,11 +1,6 @@
 # Deep Reinforcement Learning for EV Charging Station Selection (DRL-EVCS-MODULE)
 
-This repository contains the codebase for the research paper **"Deep Reinforcement Learning for Grid-Based Charging Station Selection"**, submitted for review to **IEEE Transactions on Reliability**. The project explores the application of Deep Reinforcement Learning (DRL) techniques to optimize the selection of electric vehicle (EV) charging stations, aiding in automated EV navigation with an emphasis on minimizing cost or distance based on driver preferences.
-
-## Abstract
-Navigating electric vehicle (EV) charging presents several challenges, including limited battery capacity, uncertainties such as traffic, user habits, costs, and charging station availability. A robust and efficient EV navigation system is crucial for increasing EV adoption.
-
-This project introduces a scheduling approach that leverages Deep Reinforcement Learning (DRL) methods, focusing on driver preferences such as minimizing cost or distance travelled. The proposed method uses three popular RL models: **Deep Q-Network (DQN)**, **Double Deep Q-Network (DDQN)**, and **Proximal Policy Optimization (PPO)**. Experiments show that the **PPO model** outperforms DQN and DDQN in terms of minimizing overall costs (including travel, waiting, and charging costs) and distance travelled while considering driver preferences.
+This repository contains the codebase for the research paper **"Deep Reinforcement Learning for Grid-Based Charging Station Selection"**. The project explores the application of Deep Reinforcement Learning (DRL) techniques to optimize the selection of electric vehicle (EV) charging stations, aiding in automated EV navigation with an emphasis on minimizing cost or distance based on driver preferences.
 
 Keywords: *Charging navigation, Driver preferences, Deep reinforcement learning, Intelligent transport systems, Plug-in electric vehicles (PEVs), Proximal Policy Optimization.*
 
